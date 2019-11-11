@@ -1,0 +1,20 @@
+﻿  ConsoleApplication1.cpp
+C:\Users\Nikita\Desktop\Samsung\GitHub\Visual\Visual\ConsoleApplication1\ConsoleApplication1\ConsoleApplication1.cpp(14,11): warning C4018: <: несоответствие типов со знаком и без знака
+C:\Users\Nikita\Desktop\Samsung\GitHub\Visual\Visual\ConsoleApplication1\ConsoleApplication1\ConsoleApplication1.cpp(165,20): warning C4018: <: несоответствие типов со знаком и без знака
+C:\Users\Nikita\Desktop\Samsung\GitHub\Visual\Visual\ConsoleApplication1\ConsoleApplication1\ConsoleApplication1.cpp(208,11): warning C4018: <: несоответствие типов со знаком и без знака
+C:\Users\Nikita\Desktop\Samsung\GitHub\Visual\Visual\ConsoleApplication1\ConsoleApplication1\ConsoleApplication1.cpp(209,28): warning C4804: <=: небезопасное использование типа "bool" в операции
+C:\Users\Nikita\Desktop\Samsung\GitHub\Visual\Visual\ConsoleApplication1\ConsoleApplication1\ConsoleApplication1.cpp(212,14): warning C4018: <: несоответствие типов со знаком и без знака
+C:\Users\Nikita\Desktop\Samsung\GitHub\Visual\Visual\ConsoleApplication1\ConsoleApplication1\ConsoleApplication1.cpp(214,15): warning C4018: <: несоответствие типов со знаком и без знака
+C:\Users\Nikita\Desktop\Samsung\GitHub\Visual\Visual\ConsoleApplication1\ConsoleApplication1\ConsoleApplication1.cpp(215,9): warning C4804: <=: небезопасное использование типа "bool" в операции
+C:\Users\Nikita\Desktop\Samsung\GitHub\Visual\Visual\ConsoleApplication1\ConsoleApplication1\ConsoleApplication1.cpp(254,18): warning C4805: !=: небезопасное смешение типа "boolean" и типа "bool" в операции
+C:\Users\Nikita\Desktop\Samsung\GitHub\Visual\Visual\ConsoleApplication1\ConsoleApplication1\ConsoleApplication1.cpp(323,7): warning C4101: rc: неиспользованная локальная переменная
+C:\Users\Nikita\Desktop\Samsung\GitHub\Visual\Visual\ConsoleApplication1\ConsoleApplication1\ConsoleApplication1.cpp(436,24): warning C4244: аргумент: преобразование "double" в "int", возможна потеря данных
+C:\Users\Nikita\Desktop\Samsung\GitHub\Visual\Visual\ConsoleApplication1\ConsoleApplication1\ConsoleApplication1.cpp(436,16): warning C4244: аргумент: преобразование "double" в "int", возможна потеря данных
+C:\Users\Nikita\Desktop\Samsung\GitHub\Visual\Visual\ConsoleApplication1\ConsoleApplication1\ConsoleApplication1.cpp(427,6): warning C4101: x: неиспользованная локальная переменная
+C:\Users\Nikita\Desktop\Samsung\GitHub\Visual\Visual\ConsoleApplication1\ConsoleApplication1\ConsoleApplication1.cpp(464,20): warning C4018: <: несоответствие типов со знаком и без знака
+C:\Users\Nikita\Desktop\Samsung\GitHub\Visual\Visual\ConsoleApplication1\ConsoleApplication1\ConsoleApplication1.cpp(471,20): warning C4018: <: несоответствие типов со знаком и без знака
+C:\Users\Nikita\Desktop\Samsung\GitHub\Visual\Visual\ConsoleApplication1\ConsoleApplication1\ConsoleApplication1.cpp(479,75): warning C4101: i: неиспользованная локальная переменная
+C:\Users\Nikita\Desktop\Samsung\GitHub\Visual\Visual\ConsoleApplication1\ConsoleApplication1\ConsoleApplication1.cpp(520,21): warning C4018: <: несоответствие типов со знаком и без знака
+C:\Users\Nikita\Desktop\Samsung\GitHub\Visual\Visual\ConsoleApplication1\ConsoleApplication1\ConsoleApplication1.cpp(525,23): warning C4805: ==: небезопасное смешение типа "boolean" и типа "bool" в операции
+C:\Users\Nikita\Desktop\Samsung\GitHub\Visual\Visual\ConsoleApplication1\ConsoleApplication1\ConsoleApplication1.cpp(507,11): warning C4101: b: неиспользованная локальная переменная
+  ConsoleApplication1.vcxproj -> C:\Users\Nikita\Desktop\Samsung\GitHub\Visual\Visual\ConsoleApplication1\Debug\ConsoleApplication1.exe
