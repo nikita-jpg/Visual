@@ -188,6 +188,32 @@ void perevod(vector <int> chislo, int ocna, int ocnb, int razm) {
 		std::cout << mas[i] << "";
 	}
 }
+void swap(int* mas, int j, int I) {
+	int k = mas[j];
+	mas[j] = mas[I];
+	mas[I] = k;
+}
+bool perestanovka(int* mas, int n) {
+	int j = n - 1;
+	while (mas[j + 1] < mas[j] && 0 < j) {
+		j--;
+	}
+	if (j == 0) return false;
+	int I = 0;
+	for (int i = n; j < i; i--) {
+		if (mas[j] < mas[i]) {
+			I = i;
+			break;
+		}
+	}
+	swap(mas, j, I);
+	int zam;
+	for (int i = 0; i < (n - j) / 2; i++) {
+		swap(mas, j + 1 + i, n - i);
+	}
+	return true;
+}
+
 
 
 void one() {
@@ -532,6 +558,28 @@ void nain() {
 	}
 }
 
+void ten() {
+	int n = 0;
+	cout << "Введите n:";
+	cin >> n;
+	int mas[1000];
+	bool log = false;
+
+	for (int i = 1; i <= n; i++) {
+		mas[i] = i;
+	}
+	int chet = 0;
+	while (perestanovka(mas, n)) {
+		log = false;
+		for (int i = 1; i <= n; i++)if ((mas[i] == i) && (log == false)) {
+			chet++;
+			log = true;
+		}
+	}
+	cout << "Ответ:" << chet + 1;
+
+}
+
 int main()
 {
 	setlocale(LC_ALL, "Russian");
@@ -542,11 +590,12 @@ int main()
 	while (i != false) {
 		std::cout << "Введите номер задания (1-5) : ";
 		cin >> s;
-		if (s.length() > 1) {
+		if (s.length() > 1 && (s != "10")) {
 			std::cout << "Нет такого задания. \nПожалуйста,введите номер заново" << endl;
 			continue;
 		}
 		a = s[0];
+		if (s == "10")a = 'A';
 		switch (a) {
 		case '1':
 			one();
@@ -577,6 +626,10 @@ int main()
 			continue;
 		case '9':
 			nain();
+			cout << endl;
+			continue;
+		case 'A':
+			ten();
 			cout << endl;
 			continue;
 		default:
